@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slip 1</title>
+        <style>
+            /* * {
+                margin: 0;
+                padding: 0;
+            } */
+
+            form {
+                background-color: cyan;
+                padding: 10px;
+                width: 20%;
+                height: 50%;
+                margin: 10px auto;
+
+            }
+
+            form>label {
+                color: black;
+                font-weight: bold;
+            }
+
+            form>input {
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2 style="text-align: center; font-size: 6pt; color:red; background-color: yellow; ">Project Management</h2>
+        <form action="">
+            <label for="name">Project Name</label>
+            <input type="text" id="name" placeholder="project-name">
+            <br><br>
+
+            <label for="assign">Assigned to</label>
+            <select name="" id="assign">
+                <option value="">Er Merry Petision</option>
+                <option value="">xyz</option>
+            </select>
+            <br><br>
+
+            <label for="date">Start Date</label>
+            <input type="date" id="date">
+            <br><br>
+
+            <label for="edate">Start Date</label>
+            <input type="date" id="{expression}date">
+            <br><br>
+
+            <label for="radio">Priority</label>
+
+            <input type="radio" id="high" name="priority">
+            <label for="high">High</label>
+
+            <input type="radio" id="avg" name="priority">
+            <label for="avg">Average</label>
+
+            <input type="radio" id="low" name="priority">
+            <label for="low">Low</label>
+            <br><br>
+
+            <label for="text">Description</label>
+            <textarea name="" id="text" cols="20" rows="1">
+
+            </textarea>
+            <br><br>
+
+            <button type="submit" style="background-color:green; color:white">Submit</button>
+            <button type="clear" style="background-color: blue; color:white;">Clear</button>
+        </form>
+    </body>
+
+</html>
